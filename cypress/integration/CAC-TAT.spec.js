@@ -154,7 +154,7 @@ it('seleciona um arquivo utilizando uma fixture para a qual foi dada um alias', 
   .selectFile('@sampleFile')	
   .should(function($input) {
     expect($input[0].files[0].name).to.equal('example.json')
-})
+  })
 })
 
 });
